@@ -13,9 +13,8 @@ function romanNumerals () {
     function fromNumber(n) {
         let resultInRoman = "";
         numerals.forEach(function(item){
-            while (n >= item.value) {
-                resultInRoman = resultInRoman + item.numeral;
-                n = n -item.value;
+            for (n; n >= item.value; n -= item.value ){
+                resultInRoman += item.numeral;               
             }
         });
        
