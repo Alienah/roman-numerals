@@ -1,12 +1,12 @@
 // export default function RomanNumerals () {
 function romanNumerals () {
     function fromNumber(n) {
-        if (n === 2) {
-            return "II";
-        } else if (n === 3) {
-            return "III";
+        let resultInRoman = "";
+        while (n > 0) {
+            resultInRoman += "I";
+            n --;
         }
-        return "I";
+        return resultInRoman;
     }
     return {
         fromNumber: fromNumber
