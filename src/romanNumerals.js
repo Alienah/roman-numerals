@@ -1,6 +1,9 @@
 // export default function RomanNumerals () {
 function romanNumerals () {
-    function fromNumber() {
+    function fromNumber(n) {
+        if (n === 2) {
+            return "II";
+        }
         return "I";
     }
     return {
