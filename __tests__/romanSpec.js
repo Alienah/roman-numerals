@@ -6,6 +6,6 @@ describe("Roman Numerals", () => {
     });
     it("converts numbers to Roman numerals", () => {
         expect(app.fromNumber(1)).toBe("I");
-        
+        expect(app.fromNumber(2)).toBe("II");
     });
 });
