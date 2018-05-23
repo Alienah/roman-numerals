@@ -1,5 +1,5 @@
-// export default function RomanNumerals () {
-function romanNumerals () {
+export default function RomanNumerals () {
+// function romanNumerals () {
     const numeralCreator = function (value, numeral) {
         return {
             value: value,
@@ -35,7 +35,7 @@ function romanNumerals () {
     };
 }
 
-if (typeof(module) != 'undefined') {
-    module.exports = romanNumerals;
-}
+// if (typeof(module) != 'undefined') {
+//     module.exports = romanNumerals;
+// }
 

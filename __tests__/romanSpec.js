@@ -1,6 +1,7 @@
-// import romanNumerals from "../src/romanNumerals";
-const romanNumerals = require("../src/romanNumerals");
+import romanNumerals from "../src/romanNumerals";
+// const romanNumerals = require("../src/romanNumerals");
 describe("Roman Numerals", () => {
+    let app;
     beforeEach(function (){
         app = romanNumerals();
     });
